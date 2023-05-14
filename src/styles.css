@@ -2,7 +2,7 @@ body {
   background-color: #272044;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1200px;
 }
 
 header {
@@ -51,10 +51,89 @@ header a {
   text-transform: uppercase;
 }
 
+main {
+  background-color: white;
+}
+
+main h2 {
+  color: #272044;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  color: #272044;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main h4 {
+  color: #272044;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+main h5 {
+  color: #272044;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+main p {
+  color: #272044;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 100px 100px;
+}
+
+section.secondary {
+  background-color: #f8f8f8;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.btn {
+  background: #462cb3;
+  color: white;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rrgb(22, 22, 24) 32, 68, 0.9)
     ),
     url("../images/footer-bg.png");
   background-repeat: no-repeat;
@@ -93,46 +172,9 @@ footer a {
   opacity: 0.7;
 }
 
-section {
-  margin: 0 auto;
-  max-width: 1100px;
-  padding: 100px 0;
-}
-
-main {
-  background-color: white;
-}
-
-main h2 {
-  color: #272044;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 5px;
-  line-height: 1.5;
-  margin: 0;
-  opacity: 0.3;
-  text-transform: uppercase;
-}
-
-main h3 {
-  color: #272044;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.5;
-  margin: 0;
-}
-
-main p {
-  color: #272044;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  opacity: 0.7;
-}
-
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 .grid {
@@ -144,12 +186,21 @@ main p {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
 .img-responsive {
+  display: block;
   max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (max-width: 960px) {
