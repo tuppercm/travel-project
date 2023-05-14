@@ -2,7 +2,7 @@ body {
   background-color: #272044;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 header {
@@ -126,6 +126,10 @@ section.secondary {
   aspect-ratio: 1 / 1;
 }
 
+.instagram-embed {
+  margin: 30px 0;
+}
+
 .btn {
   background: #462cb3;
   color: white;
@@ -142,7 +146,7 @@ section.secondary {
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
-      rrgb(22, 22, 24) 32, 68, 0.9)
+      rgba(39, 32, 68, 0.9)
     ),
     url("../images/footer-bg.png");
   background-repeat: no-repeat;
