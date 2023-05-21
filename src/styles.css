@@ -3,6 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
   max-width: 1400px;
+  color: #272044;
 }
 
 header {
@@ -39,7 +40,6 @@ header h3 {
 
 header a {
   background: white;
-  color: #272044;
   display: inline-block;
   font-size: 14px;
   font-weight: 700;
@@ -56,7 +56,6 @@ main {
 }
 
 main h2 {
-  color: #272044;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 5px;
@@ -67,7 +66,6 @@ main h2 {
 }
 
 main h3 {
-  color: #272044;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
@@ -75,7 +73,6 @@ main h3 {
 }
 
 main h4 {
-  color: #272044;
   font-size: 24px;
   font-weight: 700;
   line-height: 1;
@@ -83,7 +80,6 @@ main h4 {
 }
 
 main h5 {
-  color: #272044;
   font-size: 13px;
   font-weight: 700;
   line-height: 1;
@@ -91,7 +87,6 @@ main h5 {
 }
 
 main p {
-  color: #272044;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -106,6 +101,16 @@ section {
 
 section.secondary {
   background-color: #f8f8f8;
+}
+
+table th,
+td {
+  text-align: left;
+  padding-right: 35px;
+}
+
+.grayscale {
+  filter: grayscale(100%);
 }
 
 .card {
